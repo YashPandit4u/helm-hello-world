@@ -9,5 +9,16 @@ helm install ingress-nginx ingress-nginx/ingress-nginx --create-namespace --name
 
 Install this helm using:
 ```
-helm install helm-release-1 .
+helm install helm-release-dev .
+```
+
+To uninstall this helm chart:
+```
+helm uninstall helm-release-dev
+```
+
+List all installed helm charts:
+```
+helm list
+helm list -A
 ```
