@@ -1,0 +1,12 @@
+names:
+  deploymentName: hello-world-deployment
+
+replicaCount: 1
+
+image:
+  repository: yashpandit4u/golang-echo-server
+  tag: 0.3
+
+service:
+  containerPort: 8080
+  port: 80
