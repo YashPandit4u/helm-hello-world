@@ -22,3 +22,8 @@ List all installed helm charts:
 helm list
 helm list -A
 ```
+
+Upgrade after changing something:
+```
+helm upgrade helm-hello-world-dev .
+```
